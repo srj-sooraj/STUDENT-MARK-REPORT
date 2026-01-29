@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      // Marks validation (0–100)
+    
       if (
         ["chem", "phy", "bio", "maths"].includes(input.name) &&
         (input.value < 0 || input.value > 100)
