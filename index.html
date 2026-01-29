@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Mark Report</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body onload="Dispaly()">
+
+  <header>
+    <h1>🎓 Student Mark Report</h1>
+    <a href="/form.html" class="add-btn">➕ Add Student</a>
+  </header>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Class</th>
+          <th>Chem</th>
+          <th>Phy</th>
+          <th>Bio</th>
+          <th>Maths</th>
+          <th>Grade</th>
+          <th>Result</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+
+      <tbody id="container">
+        <!-- JS injects rows -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
